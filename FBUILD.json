@@ -1,0 +1,11 @@
+{
+"PkgName":"Example",
+"PkgVersion":"1.0",
+"PkgRelease":"first",
+"PkgBranch":"main",
+"Maintainer":"breaktime1903",
+"License":"MIT",
+"Architecture":"all",
+"Dependencies":null,
+"Target":["git","my.url.com"]
+}
