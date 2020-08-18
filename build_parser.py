@@ -81,6 +81,8 @@ fbuild需要一个C/C++编译器(如clang/gcc)，以及GNU Make和tar,xz用于�
                     CC='clang'
                 else:
                     print("*** 您必须选择一个编译器 ***") 
+        else:
+            print("*** 没有编译器，终止任务 ***")
             
     def read_json(self,json_str):
         try:
